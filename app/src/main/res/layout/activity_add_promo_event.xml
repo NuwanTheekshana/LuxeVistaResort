@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".AddPromoEventActivity">
+
+    <ImageView
+        android:id="@+id/btn_back_promo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/back"
+        android:contentDescription="Back Button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher_foreground"
+                android:contentDescription="@string/app_logo"
+                android:layout_marginBottom="36dp"
+                android:layout_marginTop="36dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tvBookingHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Promotion / Event Details"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="24dp"
+                android:gravity="center"/>
+
+
+            <!-- Room Preference Type -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/spinner_promo_event_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/promo_event_type"
+                android:spinnerMode="dropdown"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+            <EditText
+                android:id="@+id/et_promo_event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:inputType="text" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="24dp"/>
+            <EditText
+                android:id="@+id/et_promo_event_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Description"
+                android:inputType="text" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/btn_submit_booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Details"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#9C27B0" />
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_booking"
+        android:title="* Add Booking"/>
+    <item
+        android:id="@+id/nav_booking_history"
+        android:title="* Booking History"/>
+    <item
+        android:id="@+id/nav_add_promotion_events"
+        android:title="* Add Promotion / Events"/>
+
+    <item
+        android:id="@+id/nav_view_promotion_events"
+        android:title="* View Promotion / Events"/>
+</menu>

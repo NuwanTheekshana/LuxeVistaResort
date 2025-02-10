@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">LuxeVista Resort</string>
+    <string name="nuwan_athukorala">Nuwan Athukorala..!</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="app_logo">App Logo</string>
+    <string name="app_logo_2">App Logo_2</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password_reg">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="signup">Signup</string>
+    <string name="openDrawer" />
+    <string name="closeDrawer" />
+    <string name="welcome_to_luxe_vista_resort">Welcome to Luxe Vista Resort!</string>
+
+    <string-array name="room_type">
+            <item>Single</item>
+            <item>Double</item>
+            <item>Family</item>
+    </string-array>
+
+    <string-array name="room_preference">
+        <item>Ocean View</item>
+        <item>Deluxe Rooms</item>
+    </string-array>
+
+    <string-array name="promo_event_type">
+        <item>Promotion</item>
+        <item>Event</item>
+    </string-array>
+
+
+
+
+</resources>
